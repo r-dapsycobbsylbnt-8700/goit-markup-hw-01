@@ -1,13 +1,23 @@
 body {
     margin: 0;
     padding: 0;
+    position: relative;
+    width: 1440px;
+    height: 2592px;
+
+    background: #FFFFFF;
 }
 
 /*Header Css */
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #f1f1f1;
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
 }
 
 .navbar a {
@@ -45,6 +55,11 @@ body {
     align-items: center; /* Vertically center the content */ 
     height: 30em;
     background-color: rgb(44, 41, 41);
+    position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
 }
 
 .boxTagline p {
